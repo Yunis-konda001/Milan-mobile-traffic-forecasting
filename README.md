@@ -108,3 +108,15 @@ formative_1/
 
 - **Data:** Barlacchi et al., Scientific Data (2015), Harvard Dataverse
 - **Libraries:** pandas, numpy, matplotlib, seaborn, scipy, statsmodels, scikit-learn, tensorflow
+
+
+## What's Included vs Excluded
+
+| Included in Git | Excluded from Git |
+|-----------------|-------------------|
+| formative_1.ipynb | Telecommunications - SMS, Call, Internet - MI/ |
+| README.md | milano-grid/ (small geojson IS included) |
+| requirements.txt | .venv/ |
+| processed/ (cache files) | Raw .txt day files |
+
+**Note:** The `milano-grid/` folder contains a small geojson file that IS included. The 62 raw data `.txt` files are excluded.
