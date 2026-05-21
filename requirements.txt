@@ -1,0 +1,33 @@
+# Milan mobile traffic — formative assignment
+# Python 3.11, 3.12, or 3.13 recommended (tested with 3.13 on Windows)
+#
+# Install:
+#   py -3.13 -m venv .venv
+#   .venv\Scripts\activate          # Windows
+#   source .venv/bin/activate     # Linux / macOS
+#   python -m pip install --upgrade pip
+#   python -m pip install -r requirements.txt
+#
+# Then open formative_1.ipynb and select the .venv kernel.
+
+# Core data handling and plots
+numpy==2.4.4
+pandas==3.0.3
+matplotlib==3.10.9
+seaborn==0.13.2
+scipy==1.17.1
+
+# Time series analysis (Task 2)
+statsmodels==0.14.6
+
+# Forecasting — classical model (Task 3, Model 1)
+scikit-learn==1.8.0
+
+# Forecasting — LSTM and GRU (Task 3, Models 2 and 3)
+tensorflow==2.21.0
+
+# Task 1 — hardware / RAM info (optional but used in notebook)
+psutil==7.2.2
+
+# Run the Jupyter notebook in VS Code / Cursor
+ipykernel==7.2.0

@@ -1,0 +1,32 @@
+# --- Large raw datasets (download locally; see README) ---
+Telecommunications - SMS, Call, Internet - MI/
+
+# --- Python environment ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Optional: ignore notebook outputs to keep repo small ---
+# formative_1.ipynb
+
+# --- Logs and temp scripts ---
+*.log
+_audit.py
+_build_gru.py
+_insert_helpers.py
+_rebuild_lstm.py
+_cells_dump.txt
