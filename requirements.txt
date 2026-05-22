@@ -29,5 +29,5 @@ tensorflow==2.21.0
 # Task 1 — hardware / RAM info (optional but used in notebook)
 psutil==7.2.2
 
-# Run the Jupyter notebook in VS Code / Cursor
+# Run the Jupyter notebook in VS Code 
 ipykernel==7.2.0
